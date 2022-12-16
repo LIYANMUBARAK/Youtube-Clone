@@ -1,0 +1,311 @@
+body{
+    margin:0%;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+
+.top{
+width: 100%;
+
+display: flex;
+background-color: #0f0f0f;
+padding-top: 5px;
+padding-bottom: 10px;
+top: 0;
+z-index: 10;
+position: sticky;
+
+
+}
+.left{
+    background-color: #0f0f0f;
+width: 12%;
+height: 1000px;
+position: fixed;
+
+  overflow-y: auto;
+}
+.center{
+   background-color: #0f0f0f;
+     width: 88%;
+     
+float: right;
+margin-left: 222px;
+
+
+    }
+    /*----------------top-------------*/
+.logo{
+    height: 20px;
+width: 90px;
+padding: 15px 14px 18px 28px;
+cursor: pointer;
+}
+.menu{
+    padding-top: 14px;
+    padding-left: 5px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.searchbar{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 6px;
+     background-color: #222222;
+     
+     border-radius: 40px;
+     height: 40px;
+     width: 580px;
+     border: 2px solid #222222;
+}
+.searchbar input{
+    width: 547px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: medium;
+  background-color: #121212;
+  color: white;
+border-color:transparent;
+border-radius: 40px 0px 0px 40px;
+}
+.searchbarimage{
+    padding-top: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    width: 24px;
+    height: 24px;
+}
+.voicesearch{
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: #222222;
+    padding: 7px;
+    border-radius: 50%;
+margin-left: 1px;
+cursor: pointer;  
+}
+.voicesearch img{
+    display: grid;
+    height: 30px;
+    width: 30px;
+align-items: center;
+}
+.middle{
+    display: flex;
+}
+.left button{
+    margin-bottom: 10px;
+}
+/*----------------Side bar-------------*/
+.home{
+    display: flex;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    border: 1px solid white;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 13px;
+    border-color: transparent;
+cursor: pointer;  
+}
+  .home:hover{
+    background-color: #272727;
+  }
+
+.home img{
+    height:26px;
+    margin-left: 8px;
+    margin-top: 7px;
+
+}
+.hometxt{
+    margin-left: 40px;
+    margin-top: 4px;
+color: #f1f1f1;
+}
+
+.button{
+    display: flex;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 21px;
+    line-height: 2rem;
+    font-weight: lighter;
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 13px;
+    border-color: transparent;
+    cursor: pointer;
+    
+}
+.explore{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color:white
+}
+.button:hover{
+    background-color: #272727;
+}
+.button img{
+    height:26px;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.buttontxt{
+    margin-left: 40px;
+    margin-top: 4px;
+color: #f1f1f1;
+font-weight: 400;
+font-size: medium;
+}
+.button svg{
+    fill: white;
+    height:26px;
+    margin-left: -90px;
+    margin-top: 7px;
+}
+.leftfooter{
+    margin-left: 10px;
+    padding-bottom: 100px;
+}
+.leftfooter a{
+    text-decoration: none;
+    color: #aaaaaa;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: small;
+    padding-right: 5px;
+  
+    
+}
+.copyright{
+
+    color: #6c6c6c;
+    font-size: small;
+}
+/*---------------center part--------------------*/
+.topbar{
+    margin-left: 40px;
+}
+
+
+.buttontopbar{
+    background-color: #272727;
+    color: #f1f1f1;
+    border-color: transparent;
+ border-radius: 07px;
+ text-align: center;
+ font-size: 1 rem;
+ padding: 7px 10px;
+ margin-right: 6px;
+ cursor: pointer;
+}
+.buttontopbar:hover{
+    background-color: black;
+}
+.youtubemusicbanner{
+    height: 260px;
+    width: 1606px;
+    background-color: black;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.youtubemusicbanner img{
+    height: 24px; ;
+    width: 320px;
+    margin-top: 46px;;
+    margin-left: 76px;
+}
+.musicbannertext{
+    font-family: "YouTube Sans","Roboto",sans-serif;
+font-size: 2.4rem;
+margin-left: 76px;
+color: white;
+margin-top: 11px;
+}
+.getitnow{
+    margin-left: 76px;
+    margin-top: -15px;
+    font-family: "YouTube Sans","Roboto",sans-serif;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    height: 34px;
+    width: 93px;
+    border-radius: 40px;
+    border:1px solid white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    
+}
+.getitnow:hover{
+    background-color: #272727;
+}
+.close{
+    background-color: transparent;
+border: transparent;
+font-size: large;
+    position: absolute;
+    color: #e0e0e0;
+   top:0 ;
+   right:0;
+   margin-right: 20px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+.homescreenbanner{
+    margin-top: 15px;
+}
+.youtubevideos{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+  
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+}
+.video{
+    
+    margin-top: 10px;
+    
+   
+   
+}
+.video img{
+    border-radius: 10px;
+    height: 200px;
+    width: 369px;
+    cursor: pointer;
+}
+.channel{
+    display:flex;
+
+}
+.channel img{
+   margin-top: 10px;
+   margin-left: 7px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    
+}
+.details{
+    padding-left: 20px;
+    color: #a5a5a5;
+    font-family: "Roboto","Arial",sans-serif;
+    line-height: 10px;
+}
+.videoname{
+    color: white;
+    font-size:18px;
+}
